@@ -4,11 +4,12 @@ DNSPort 0.0.0.0:8853
 SocksPort 0.0.0.0:9150
 DataDirectory /var/lib/tor
 MaxCircuitDirtiness 120
-#UseBridges 1
-#ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
-#Bridge obfs4 135.181.105.141:443 A7878416619C89A4BDC53CC180790576D61FA523 cert=OzNDqJ1iQRnpP3j91wWZtEwjYN3F6wCvKyC/7ltbQJSmByqzQVXgvfdoP6LODL9I0/hPJw iat-mode=0
-#Bridge obfs4 37.187.18.166:8042 F5A55DAE01B8253C9161C9C34F460BEB7E1CEE96 cert=5We+n20M6s3Vy6+v5HDApzl3wUow43/MQ/3HQLrs+vN9Y2lrzwT7m0B/lXelk1KHAG8xfw iat-mode=0
-#Bridge obfs4 91.219.238.203:443 2655F9202DD4AB859A2392A139CE5C7C4D459A95 cert=OHeKBWgNrBlKczKGSkbRE3pJKpBwi7JLzbFWq/1bBYekqZ5G+8LATugW1noHAe/qSt9wew iat-mode=0
+# https://bridges.torproject.org/bridges/?transport=obfs4
+UseBridges 1
+ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+obfs4 217.86.148.59:10235 ECDE7860636D20A3374804FE8FF36D89B7AFE96D cert=O3GU2XtIUe6umRZqDk5uoHH1aP8zxqNLPF9l9oTMSknYnyI4XN81OA/UUIJN3d8Qf77NQw iat-mode=0
+obfs4 87.197.128.98:9292 AE6BA15179AEEF64A0F543BEB7FA1BE2E91A93CF cert=t36bkZYMFJyJzTN1HYyh5LzAK/R81GAAH2Q7N3P9qLt5Jd0g7qDvWPIKTurxO2t7XzxSQA iat-mode=0
+obfs4 51.79.156.106:9002 09F4467891E27057CC8EC15A9E4CAAF770AE1CDD cert=s5dFoGJDY/tPpRKfyz/GsWamfzmvt5noPAt8ZiPiuLuqsBoMtnopwiPp4OiaM/N4R6x9Kw iat-mode=0
 # Exclusion 
 ExcludeNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
 ExcludeExitNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
