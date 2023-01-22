@@ -4,11 +4,11 @@ DNSPort 0.0.0.0:8853
 SocksPort 0.0.0.0:9150
 DataDirectory /var/lib/tor
 MaxCircuitDirtiness 120
-UseBridges 1
-ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
-Bridge obfs4 135.181.105.141:443 A7878416619C89A4BDC53CC180790576D61FA523 cert=OzNDqJ1iQRnpP3j91wWZtEwjYN3F6wCvKyC/7ltbQJSmByqzQVXgvfdoP6LODL9I0/hPJw iat-mode=0
-Bridge obfs4 37.187.18.166:8042 F5A55DAE01B8253C9161C9C34F460BEB7E1CEE96 cert=5We+n20M6s3Vy6+v5HDApzl3wUow43/MQ/3HQLrs+vN9Y2lrzwT7m0B/lXelk1KHAG8xfw iat-mode=0
-Bridge obfs4 91.219.238.203:443 2655F9202DD4AB859A2392A139CE5C7C4D459A95 cert=OHeKBWgNrBlKczKGSkbRE3pJKpBwi7JLzbFWq/1bBYekqZ5G+8LATugW1noHAe/qSt9wew iat-mode=0
+#UseBridges 1
+#ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
+#Bridge obfs4 135.181.105.141:443 A7878416619C89A4BDC53CC180790576D61FA523 cert=OzNDqJ1iQRnpP3j91wWZtEwjYN3F6wCvKyC/7ltbQJSmByqzQVXgvfdoP6LODL9I0/hPJw iat-mode=0
+#Bridge obfs4 37.187.18.166:8042 F5A55DAE01B8253C9161C9C34F460BEB7E1CEE96 cert=5We+n20M6s3Vy6+v5HDApzl3wUow43/MQ/3HQLrs+vN9Y2lrzwT7m0B/lXelk1KHAG8xfw iat-mode=0
+#Bridge obfs4 91.219.238.203:443 2655F9202DD4AB859A2392A139CE5C7C4D459A95 cert=OHeKBWgNrBlKczKGSkbRE3pJKpBwi7JLzbFWq/1bBYekqZ5G+8LATugW1noHAe/qSt9wew iat-mode=0
 # Exclusion 
 ExcludeNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
 ExcludeExitNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
