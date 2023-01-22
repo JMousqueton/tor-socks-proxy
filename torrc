@@ -7,9 +7,9 @@ MaxCircuitDirtiness 120
 # https://bridges.torproject.org/bridges/?transport=obfs4
 UseBridges 1
 ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
-obfs4 217.86.148.59:10235 ECDE7860636D20A3374804FE8FF36D89B7AFE96D cert=O3GU2XtIUe6umRZqDk5uoHH1aP8zxqNLPF9l9oTMSknYnyI4XN81OA/UUIJN3d8Qf77NQw iat-mode=0
-obfs4 87.197.128.98:9292 AE6BA15179AEEF64A0F543BEB7FA1BE2E91A93CF cert=t36bkZYMFJyJzTN1HYyh5LzAK/R81GAAH2Q7N3P9qLt5Jd0g7qDvWPIKTurxO2t7XzxSQA iat-mode=0
-obfs4 51.79.156.106:9002 09F4467891E27057CC8EC15A9E4CAAF770AE1CDD cert=s5dFoGJDY/tPpRKfyz/GsWamfzmvt5noPAt8ZiPiuLuqsBoMtnopwiPp4OiaM/N4R6x9Kw iat-mode=0
+Bridges obfs4 217.86.148.59:10235 ECDE7860636D20A3374804FE8FF36D89B7AFE96D cert=O3GU2XtIUe6umRZqDk5uoHH1aP8zxqNLPF9l9oTMSknYnyI4XN81OA/UUIJN3d8Qf77NQw iat-mode=0
+Bridges obfs4 87.197.128.98:9292 AE6BA15179AEEF64A0F543BEB7FA1BE2E91A93CF cert=t36bkZYMFJyJzTN1HYyh5LzAK/R81GAAH2Q7N3P9qLt5Jd0g7qDvWPIKTurxO2t7XzxSQA iat-mode=0
+Bridges obfs4 51.79.156.106:9002 09F4467891E27057CC8EC15A9E4CAAF770AE1CDD cert=s5dFoGJDY/tPpRKfyz/GsWamfzmvt5noPAt8ZiPiuLuqsBoMtnopwiPp4OiaM/N4R6x9Kw iat-mode=0
 # Exclusion 
 ExcludeNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
 ExcludeExitNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
